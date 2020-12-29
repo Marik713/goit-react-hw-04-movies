@@ -1,0 +1,12 @@
+.listItem {
+  display: inline-block;
+  }
+
+  .list{
+    list-style: square outside;
+  }
+
+  .title{
+    font-weight: bold;
+    font-size: 20px;
+  }

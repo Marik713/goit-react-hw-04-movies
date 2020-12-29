@@ -1,0 +1,111 @@
+html,
+body {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+button {
+   cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.IMG{
+  display: block;
+  margin: 0 auto;
+}
+.About {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+
+.Img {
+  margin-right: 20px;
+  width: 300px;
+  height: 450px;
+  border-radius: 7px;
+}
+
+.addInfo {
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px;
+  color:palevioletred;
+}
+.addInfo-active{
+  color:blueviolet
+}
+.bold {
+  font-weight: bold;
+  font-size: 20px;
+  width: 300px;
+}
+.text{
+  text-align: center;
+}
+.addInfoSection {
+  margin-top: 20px;
+  margin-left: 15px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #9c9c9c;
+  border-top: 2px solid #9c9c9c;
+}
+
+.backBtn {
+  margin: 0 0 15px 15px;
+  background-color: blueviolet;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+.container{
+  text-align: center;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.genresList{
+list-style: square outside; ;
+}
+
+.castImg{
+  width: 200px;
+  height: 277px;
+  border-radius: 17px;
+}
+
